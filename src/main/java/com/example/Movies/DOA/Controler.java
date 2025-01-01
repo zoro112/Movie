@@ -24,7 +24,7 @@ import java.util.Optional;
 public class Controler {
     @Autowired
     private ServiceMovie srv;
-
+    System.out.println("TEST");
     /*
      * @GetMapping()
      * public ResponseEntity<List<Movie>> index() {
